@@ -1,0 +1,92 @@
+body{
+    font-family:serif;
+    line-height: 1.5;
+}
+#nav-bar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+   
+}
+
+
+#title{
+    margin-top: 6rem;
+}
+
+
+
+.card {
+    margin: 3rem;
+}
+.fab{
+    font-size: 25px;
+    color: #ffff;
+}
+.fa-star{
+    font-size: 20px;
+    color: gold;
+}
+.fa-envelope{
+    font-size: 20px;
+    color: #ffff;
+    border-bottom: none;
+}
+img{
+    width: 100%;
+}
+#cta{
+    display: none;
+}
+#cta a {
+    color: #ffff;
+}
+
+
+
+
+
+.breadcrumb{
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.card-content{
+    padding: 1rem;
+}
+.table-container{
+    padding: 2rem;
+}
+main{
+    margin-top: 5rem;
+}
+
+
+
+@media screen and (max-width: 40em) {
+    
+    .card{
+        margin:.6rem;
+    }
+    .columns{
+
+       padding: 2rem;
+       margin-top: 1rem;
+    }
+    .social{
+        display: none;
+    }
+    #cta{
+        display: block;
+        margin-bottom: 2rem;
+    }
+    form{
+       margin: auto;;
+    }
+    #social-hero{
+        display: none;
+    }
+        
+    
+    
+    
+}
