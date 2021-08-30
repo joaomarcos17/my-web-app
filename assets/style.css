@@ -1,3 +1,6 @@
+:root  {
+    --var: #a039a0;
+}
 body{
     font-family:serif;
     line-height: 1.5;
@@ -40,6 +43,28 @@ img{
 }
 #cta a {
     color: #ffff;
+}
+.hero{
+    
+    background-color: var(--var);
+}
+#column1{
+    background-color: #ddd;
+}
+#footer {
+    background-color: var(--var);
+}
+#social-hero{
+    background-color: #eee;
+}
+#email, #facebook, #instagram, #tiktok{
+    color: black;
+}
+#column2, #cta{
+    background-color: var(--var);
+}
+.button{
+    background-color: var(--var);
 }
 
 
@@ -101,6 +126,9 @@ main{
 
     .column{
         padding: 2rem;
+    }
+    .modal-close{
+        background-color:#485fc7 ;
     }
     
 }
