@@ -104,19 +104,14 @@ main{
         display: block;
         margin-bottom: 2rem;
     }
-    form{
-       margin: auto;;
-    }
+    
     #social-hero{
         display: none;
     }
     .modal-close{
         background-color:#485fc7 ;
     }
-    .modal{
-        margin:10px;
-    }
-
+    
         
     
     
