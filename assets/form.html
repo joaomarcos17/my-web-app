@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    
+    <style>
+    :root{
+      --var: #a039a0;
+    }
+    body,html{
+
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      
+    }
+    .container{
+        padding: 4rem;
+    }
+    img{
+      width: 100%;
+    }
+    #column2, #cta{
+     background-color: var(--var);
+    }
+    .button{
+      background-color: var(--var);
+    }
+    #footer{
+      background-color: var(--var);
+    }
+
+    @media screen and (min-width:50em){
+
+        
+        .card-content{
+            padding: 4rem 6rem;
+
+        }
+        .title{
+            color: white;
+        }
+        
+        
+    }
+    </style>
+
+</head>
+
+  <!-- navbar -->
+<nav id="nav-bar"class="navbar is-transparent has-shadow ">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="index.html">
+      <strong>
+
+      Mrs Brilliant
+    </strong>
+    </a>
+    <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div id="navbarExampleTransparentExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="index.html">
+    Home
+      </a>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link" href="#Terms">
+        Our Terms
+        </a>
+        <div class="navbar-dropdown is-boxed">
+          <a class="navbar-item" href="#">
+            Reviews
+          </a>
+          <a class="navbar-item" href="#">
+            FAQs
+          </a>
+
+        
+          <a class="navbar-item" href="#Services">
+            Services
+          </a>
+         
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control">
+           
+          </p>
+          <p class="control">
+            <!-- call button -->
+            <a class="button has-text-white" href="tel:+44-7972-725050" data-tracking-element-type="3" jslog="56037; track:impression,click" itemprop="telephone" dir="ltr
+            ">
+              <span class="icon">
+                <i class="fas fa-phone"></i>
+              </span>
+              <span>079 7272 5050</span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<!-- end of nabar -->
+
+
+
+
+
+
+
+
+
+<body>
+    <main>
+
+      <!-- image -->
+
+      <img src="https://i.postimg.cc/zfqqZ3qW/brilliant.jpg" alt="logo">
+
+
+
+   <section class="hero is-link">
+
+    <div class="hero-body">
+
+
+      <h1 class="title">Contact Form</h1>
+
+    </div>
+
+
+   </section>
+
+
+   
+    
+      
+
+      
+<div class="container">
+      
+    <!-- card content -->
+
+    <div class="card is-centered">
+        <div class="card-content">
+
+            <!-- form is inside the card -->
+
+            <form action="email.php"method="post" id="form">
+      
+           
+                      
+            <div class="field">
+      
+                 <!-- name -->
+      
+              <label class="label">Name</label>
+               <input class="input is-success" type="text" placeholder="Full Name" id="username" value="">
+                
+               
+              
+              
+            </div>
+            
+            <div class="field">
+                     
+                 <!-- email -->
+                   
+              <label class="label">Email</label>
+              <input class="input is-danger" id="email" type="email" placeholder="Email"value="">
+               
+              </div>
+             
+            
+            <div class="field">
+              <label class="label">Subject</label>
+              <div class="control">
+                <div class="select">
+                  <select>
+                    <option>Select dropdown</option>
+                    <option>With options</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            
+            <div class="field">
+              <label class="label">Message</label>
+              <div class="control">
+                <textarea id="message" class="textarea" placeholder="Textarea"></textarea>
+              </div>
+            </div>
+            
+            <div class="field">
+              <div class="control">
+                <label class="checkbox">
+                  <input type="checkbox">
+                  I agree to the <a href="index.html">terms and conditions</a>
+                </label>
+              </div>
+            </div>
+            
+            <!-- submit button -->
+            
+            <div class="field is-grouped">
+              <div class="control">
+                <button class="button is-link" type="submit"id="submit">Submit</button>
+              </div>
+             
+            </div>
+          </form>
+
+
+            <!-- end of the form -->
+        
+        </div>
+
+    </div>
+
+  </div>
+
+
+
+</main>
+
+<!-- footer -->
+
+<footer id="footer" class="
+                         has-text-centered
+                         has-text-white
+                         py-6">
+
+                         <div class="columns">
+                          <div class="column">
+                            <ul>
+                              <li><a class="has-text-white is-underlined" href="about.html"target="_blank">Terms and Conditions</a></li>
+                              <li><a class="has-text-white is-underlined" href="">Services</a></li>
+
+                              <li><a class="has-text-white is-underlined" href="index2.html"target="_blank">FAQs</a></li>
+                            </ul>
+
+                          </div>
+                          <div class="column">
+                            <ul>
+                              <li> mrsbrilliantcleaning@gmail.com</li>
+                              <li>079 7272 5050</li>
+                              <li><a class="has-text-white is-underlined" href="#">Back to the top</a></li>
+                            </ul>
+
+                          </div>
+
+                        </div>
+
+               <br>
+
+
+
+                  <!-- footer date -->
+
+             <script>
+                document.write( "@Mrs Brilliant &copy;" + new Date().getFullYear());
+              </script>
+
+              <!-- cta on the footer -->
+
+   </footer>  
+
+
+
+   <script src="script.js"></script>
+
+
+
+</body>
+</html>
