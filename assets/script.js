@@ -56,13 +56,13 @@ document.addEventListener('DOMContentLoaded', () => {
   // }
 
 
-   let form = document.getElementById('form');
-    form.addEventListener('submit',function(event){
-    event.preventDefault();
+  //  let form = document.getElementById('form');
+  //   form.addEventListener('submit',function(event){
+  //   event.preventDefault();
     // it prevents autosubmitting!!
      
     // username
-    let username = document.getElementById('username').value
+    let username = document.getElementById('name').value
     console.log(username);
    
 
