@@ -27,62 +27,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
   });
 
-  // end of navbar
+  
 
 
-  // modal
-
-
-  // modal variables
-
-  // var launcher = document.getElementById('launcher'); // modal button
-
-  // var modal = document.getElementById('page-modal');
-
-  // modal page  id="page-modal"
-
-  // var Close = document.getElementsByClassName('modal-close')[0]; // button that closes the modal
-
-    // open the modal
-  // launcher.onclick = function(){
-    // modal.style.display = 'block';
-  // }
-  // close the modal
-  // Close.onclick = function(){
-    // modal.style.display = 'none';
-
-    // end of modal
-
-  // }
-
-
-  //  let form = document.getElementById('form');
-  //   form.addEventListener('submit',function(event){
-  //   event.preventDefault();
+   let form = document.getElementById('form');
+    form.addEventListener('submit',function(event){
+    event.preventDefault();
     // it prevents autosubmitting!!
      
-    // username
-    let username = document.getElementById('name').value
-    console.log(username);
-   
-
-    // email
-
-    let email = document.getElementById('email').value
-
-    console.log(email);
-
-    // subjects 
-    let subject = document.getElementById('subject').value
     
-    console.log(subject);
-
-
-    // message
-
-    let message = document.getElementById('message').value
-
-    console.log(message);
 
     
 })
