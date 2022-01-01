@@ -56,8 +56,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // }
 
 
-  //  let form = document.getElementById('form');
-  form.addEventListener('submit',function(event){
+   let form = document.getElementById('form');
+    form.addEventListener('submit',function(event){
     event.preventDefault();
     // it prevents autosubmitting!!
      
@@ -68,14 +68,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // email
 
-    var email = document.getElementById('email').value
+    let email = document.getElementById('email').value
 
     console.log(email);
+
+    // subjects 
+    let subject = document.getElementById('subject').value
     
+    console.log(subject);
+
 
     // message
 
-    var message = document.getElementById('message').value
+    let message = document.getElementById('message').value
 
     console.log(message);
 
