@@ -1,0 +1,147 @@
+  <!-- hero-service  -->
+
+
+            <section class="hero py-4">
+
+              <div class="hero-body">
+
+                <p id="Testimonials" class="title has-text-white">
+                 Testimonials
+                </p>
+                <br>
+
+                <p class="subtitle">
+                  <button  class="button is-info is-medium">
+                  <a class="has-text-white" class="PDllHc dogP7c" jslog="66413; track:impression,click;" href="https://search.google.com/local/reviews?placeid=ChIJOWmI-TAy30cRLWUuDz7-jj0"target="_blank" rel="noreferrer">Reviews on Google</a>
+                </button>
+                </p>
+
+          </div>
+
+            </section>
+
+            <!-- services  -->
+          <section class="container py-6">
+
+            <!-- first column -->
+
+            <div class="tile is-ancestor">
+              <div class="tile is-parent">
+
+             <article
+              class="tile is-child box notification">
+
+                  <p class="title has-text-centered">
+
+
+                  </p>
+
+
+                  <div class="content">
+
+
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+
+                      <!-- first box write here -->
+
+                      <br>
+                      <br>
+
+                      <p>
+
+                      "Leda was amazing,the house needed some pretty intense Cleaning. and After she came everything was clean and sparkling ragardless how dirty it was. Very professional and personable I can't recommend enough. Thanks Leda for the fantastic job you did. "
+
+                    </p>
+
+                      <cite>Emma Atkins</cite>
+
+
+
+                  </div>
+
+
+                </article>
+
+              </div>
+
+              <!-- second column -->
+              <div class="tile is-parent">
+
+                <article class="tile is-child box">
+
+                  <p class="title has-text-centered"></p>
+
+                  <div class="content">
+
+
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                    <br>
+                    <br>
+
+
+
+
+                    <p>
+                                           <!-- second box write here -->
+
+                    "Amazing service, not only did Mrs Brilliant leave my apartment looking spotless and brand-new! she also gave great tips on how to keep it cleaner for longer! Well worth the money, very happy. So genuine and lovely to talk to before, during and after the clean. There's nothing bad to say at all!"
+                  </p>
+
+                    <cite>Yasar Anwar</cite>
+
+
+
+                  </div>
+
+                </article>
+
+              </div>
+              <!-- trird Column -->
+              <div class="tile is-parent">
+
+                <article class="tile is-child box">
+
+                  <p class="title has-text-centered"></p>
+
+                  <div class="content">
+
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                    <br>
+                    <br>
+
+
+
+                    <p>
+                           <!-- third box write here -->
+
+                           "Amazing service! Couldn't fault anything at all, quick responses and very flexible. I Work long hours so I don't get time to keep on top of cleaning and felt apprehensive about getting someone to do it for me but I am so glad I did and I'm glad I picked this amazing lady. My house looked spotless afterwards, 100% would recommend x. "
+
+                    </p>
+
+                    <cite>Julie Waters</cite>
+
+
+
+                  </div>
+                </article>
+
+              </div>
+            </div>
+
+           </div>
+
+          </section>

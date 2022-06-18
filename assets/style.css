@@ -1,0 +1,132 @@
+:root  {
+    --var: #a039a0;
+}
+body{
+    font-family:serif;
+    line-height: 1.5;
+}
+#nav-bar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+   
+}
+
+
+#title{
+    margin-top: 6rem;
+}
+
+
+
+.card {
+    margin: 3rem;
+}
+.fab{
+    font-size: 25px;
+    color: #ffff;
+}
+.fa-star{
+    font-size: 20px;
+    color: gold;
+}
+.fa-envelope{
+    font-size: 20px;
+    color: #ffff;
+    border-bottom: none;
+}
+img{
+    width: 100%;
+}
+#cta{
+    display: none;
+}
+#cta a {
+    color: #ffff;
+}
+.hero{
+    
+    background-color: var(--var);
+}
+#column1{
+    background-color: #ddd;
+}
+#column2{
+    background-color: #ddd;
+}
+#footer {
+    background-color: var(--var);
+}
+#social-hero{
+    background-color: #eee;
+}
+#email, #facebook, #instagram, #tiktok{
+    color: black;
+}
+#column3, #cta{
+    background-color: var(--var);
+}
+.button{
+    background-color: var(--var);
+}
+
+
+
+
+
+.breadcrumb{
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.card-content{
+    padding: 1rem;
+}
+.table-container{
+    padding: 2rem;
+}
+main{
+    margin-top: 5rem;
+}
+
+
+
+@media screen and (max-width: 40em) {
+    
+    .card{
+        margin:.6rem;
+    }
+    .columns{
+
+       padding: 4rem;
+       margin-top: 1rem;
+    }
+    .social{
+        display: none;
+    }
+    #cta{
+        display: block;
+        margin-bottom: 2rem;
+    }
+    
+    #social-hero{
+        display: none;
+    }
+    .modal-close{
+        background-color:#485fc7 ;
+    }
+    
+        
+    
+    
+    
+}
+@media screen and (min-width: 670px){
+
+    .column{
+        padding: 2rem;
+    }
+    .modal-close{
+        background-color:#485fc7 ;
+    }
+    
+}

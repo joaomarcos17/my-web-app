@@ -1,0 +1,26 @@
+<div class="column is-one-third">
+
+            <p class="title">
+
+             End of Tenancy Cleaning
+
+            </p>
+
+            <br>
+
+            <p class="subtitle is-6 ">
+
+              Mrs Brilliant is continue working through the lockdown with safety measures in place. If you want an end of tenancy cleaning, before sell/after sell cleaning, we are here to help with everything you need, we are trained professionals to deliver high standard quality in our cleaning services, please read our reviews . If you have a neglected property that is urge for a deep clean 🧽 don’t despair please, just give us a call, we can completely restore your property to its original glamour and put it right back to the market to rent or sell. I am very proud to say that we are the best in what we do and offer.
+
+
+            </p>
+
+            <button  class="button is-medium">
+
+              <a href="form.html"target="_blank" class="has-text-white">
+                Get a Quote
+              </a>
+
+            </button>
+
+          </div>
